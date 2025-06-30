@@ -1,0 +1,91 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Logo Bar */
+  .logo-bar {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo-img {
+    width: 150px;
+    height: auto;
+  }
+  
+  /* Main Content */
+  .apple-img {
+    width: 100%;
+    height: auto;
+    max-height: 320px;
+    object-fit: cover;
+  }
+  
+  /* Card Section */
+  .card {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 24px 16px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: -20px;
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .card h1 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 16px;
+  }
+  
+  button:hover {
+    background-color: #1976d2;
+  }
+  
+  .login {
+    font-size: 14px;
+  }
+  
+  .login a {
+    color: #2196F3;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
