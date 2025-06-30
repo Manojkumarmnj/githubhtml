@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  background: #fff;
+}
+
+/* General screen layout */
+.screen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: opacity 1s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Splash screen */
+#splash {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  animation: fadeOut 3s forwards;
+}
+
+.splash-icon img {
+  width: 80px;
+  height: 80px;
+  animation: bounce 1.2s ease-in-out infinite;
+  background-color: #007bff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.app-title {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 600;
+}
